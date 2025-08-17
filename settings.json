@@ -1,0 +1,41 @@
+{
+  // =============================
+  // Aparência de espaços e guias
+  // =============================
+  "editor.renderWhitespace": "all",         // Mostra todos os espaços
+  "editor.renderControlCharacters": true,   // Mostra caracteres invisíveis
+  "editor.guides.indentation": true,        // Guia de indentação
+  "editor.guides.bracketPairs": "active",   // Guia colorida para pares de chaves
+  "editor.guides.highlightActiveIndentation": true, // Destaca a indentação atual
+
+  // =============================
+  // Aparência de fonte e cursor
+  // =============================
+  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,             // Ligações de fonte (opcional)
+  "editor.cursorSmoothCaretAnimation": true,
+
+  // =============================
+  // Tema recomendado
+  // =============================
+  "workbench.colorTheme": "Tokyo Night",
+
+  // =============================
+  // Ajustes de terminal e minimap
+  // =============================
+  "editor.minimap.enabled": true,
+  "terminal.integrated.fontFamily": "Fira Code",
+
+  // =============================
+  // Indent Rainbow (Extensão)
+  // =============================
+  "indentRainbow.colors": [
+    "rgba(255, 99, 132, 0.2)",   // Vermelho claro
+    "rgba(54, 162, 235, 0.2)",   // Azul claro
+    "rgba(75, 192, 192, 0.2)",   // Verde água
+    "rgba(255, 206, 86, 0.2)",   // Amarelo
+    "rgba(153, 102, 255, 0.2)"   // Roxo
+  ],
+  "indentRainbow.errorColor": "rgba(255,0,0,0.6)", // Erro de indentação
+  "indentRainbow.tabmix": true                     // Suporte misto tab + espaço
+}
